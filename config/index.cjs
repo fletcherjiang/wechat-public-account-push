@@ -29,7 +29,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小龚', year: '2001', date: '01-16',
+          type: '生日', name: '小龚', year: '2001', date: '01-16',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -45,6 +45,8 @@ const USER_CONFIG = {
         { keyword: 'love_day', date: '2020-09-02' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
+        // 符合纪念日
+        { keyword: 'fuhe_day', date: '2022-12-25' },
       ],
     },
   ],
